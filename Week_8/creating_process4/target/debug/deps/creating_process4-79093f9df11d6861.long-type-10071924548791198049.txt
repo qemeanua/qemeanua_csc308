@@ -1,0 +1,1 @@
+for<'a> fn(&'a [u8]) -> Cow<'a, str> {String::from_utf8_lossy}
